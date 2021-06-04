@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+Learning Objectives
 
-You can use the [editor on GitHub](https://github.com/gtnq/cit281-p6/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+After completing this project, you will:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Gain experience creating and working classes with inheritance
 
-### Markdown
+Gain more experience creating and working with classes
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Gain more experience debugging code
 
-```markdown
-Syntax highlighted code block
+Gain more experience using a generic block of code to process data
 
-# Header 1
-## Header 2
-### Header 3
+Gain more experience interpreting functional descriptions and specifications to complete an assignment
 
-- Bulleted
-- List
+Gain more experience writing and executing non-web server Node.js JavaScript code using VSCode
 
-1. Numbered
-2. List
+Practice using modern JavaScript syntax
 
-**Bold** and _Italic_ and `Code` text
+Gain more experience working with static data
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Overview
 
-### Jekyll Themes
+You will be creating three classes. The first class is the Shape class that will serve as a base class for the other two classes. The second class is the Rectangle class that will inherit from Shape class. A class that inherits from another class can be called the child class of the base, or parent, class. The third class is the Triangle class that also will inherit from the Shape class.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gtnq/cit281-p6/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The base Shape class will provide the common functionality of a method that returns the perimeter value. Each of the other two classes will provide their own versions of a method that returns the area value. 
 
-### Support or Contact
+Important: The solution for this assignment is less than sixty lines of code. The difficulty in this project is mentally conceptualizing the idea of classes as object blueprints, and using a base class to provide common functionality for child classes.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Tip: You should continue to use git to track completed versions of your code.
